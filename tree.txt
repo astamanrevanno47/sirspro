@@ -1,0 +1,97 @@
+Folder PATH listing
+Volume serial number is F8ED-E4CC
+C:\LARAGON\WWW\SIRSPRO\APP
++---Filament
+|   +---Landlord
+|   |   +---Pages
+|   |   \---Resources
+|   |       |   ModuleResource.php
+|   |       |   
+|   |       +---ModuleResource
+|   |       |   \---Pages
+|   |       |           CreateModule.php
+|   |       |           EditModule.php
+|   |       |           ListModules.php
+|   |       |           
+|   |       \---TenantResource
+|   |           \---Pages
+|   |                   CreateTenant.php
+|   |                   EditTenant.php
+|   |                   ListTenants.php
+|   |                   
+|   \---Resources
+|       |   KaryawanResource.php
+|       |   KpiResource.php
+|       |   LmsResource.php
+|       |   PengendalianDokumenResource.php
+|       |   PenilaianKpiTahunanResource.php
+|       |   TenantResource.php
+|       |   UserResource.php
+|       |   
+|       +---KaryawanResource
+|       |   \---Pages
+|       |           CreateKaryawan.php
+|       |           EditKaryawan.php
+|       |           ListKaryawans.php
+|       |           
+|       +---KpiResource
+|       |   \---Pages
+|       |           CreateKpi.php
+|       |           EditKpi.php
+|       |           ListKpis.php
+|       |           
+|       +---LmsResource
+|       |   \---Pages
+|       |           CreateLms.php
+|       |           EditLms.php
+|       |           ListLms.php
+|       |           
+|       +---PengendalianDokumenResource
+|       |   \---Pages
+|       |           CreatePengendalianDokumen.php
+|       |           EditPengendalianDokumen.php
+|       |           ListPengendalianDokumens.php
+|       |           
+|       +---PenilaianKpiTahunanResource
+|       |   \---Pages
+|       |           CreatePenilaianKpiTahunan.php
+|       |           EditPenilaianKpiTahunan.php
+|       |           ListPenilaianKpiTahunans.php
+|       |           
+|       +---TenantResource
+|       |   \---Pages
+|       |           CreateTenant.php
+|       |           EditTenant.php
+|       |           ListTenants.php
+|       |           
+|       \---UserResource
+|           \---Pages
+|                   CreateUser.php
+|                   EditUser.php
+|                   ListUsers.php
+|                   
++---Http
+|   \---Controllers
+|           Controller.php
+|           DashboardController.php
+|           
++---Models
+|       Karyawan.php
+|       Module.php
+|       Product.php
+|       Tenant.php
+|       User.php
+|       
++---Multitenancy
+|   |   YourCustomTenantFinder.php
+|   |   
+|   \---Tasks
+|           ForceReconnectDatabaseTask.php
+|           
+\---Providers
+    |   AppServiceProvider.php
+    |   
+    \---Filament
+            AdminPanelProvider.php
+            LandlordPanelProvider.php
+            
